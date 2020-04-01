@@ -2,16 +2,22 @@ lista_anim=[]
 lista_tipo=[]
 lista_mkgasto=[]
 class animal: 
-    def init(self, nombre, tipo):
+    def init(self, nombre, tipo, clasific):
         self.nombre = nombre
         self.tipo   = tipo
        
     def set_nombre(self,nombre): 
         self.nombre = nombre
+
+    def set_clasific(self,clasific): 
+        self.clasific = clasific
           
     def get_nombre(self):
         print(self.nombre)
         self.get_p()
+
+    def get_clasific(self):
+        print(self.clasific)
 
 def Menu():
  
